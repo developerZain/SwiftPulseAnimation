@@ -10,7 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
+IOS 12.1+
 ## Installation
 
 SwiftPulseAnimation is available through [CocoaPods](https://cocoapods.org). To install
@@ -18,6 +18,13 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'SwiftPulseAnimation'
+```
+
+## Usage
+
+```ruby
+let pulse = Pulsing(numberOfPulses: 1, radius: 110, position: yourview.center, duration: 0.9, pulseColor: .blue)
+self.view.layer.insertSublayer(pulse, below: yourview.layer)
 ```
 
 ## Author
