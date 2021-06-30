@@ -9,6 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Demo
+![](https://firebasestorage.googleapis.com/v0/b/task-hunt.appspot.com/o/Image.gif?alt=media&token=bc2375c7-ee93-4be9-b707-fa3d532b4338.gif)
+
 ## Requirements
 IOS 12.1+
 ## Installation
