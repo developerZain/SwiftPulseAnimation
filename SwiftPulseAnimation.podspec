@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/developerZain/SwiftPulseAnimation'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://firebasestorage.googleapis.com/v0/b/task-hunt.appspot.com/o/IMG_2980.PNG?alt=media&token=44d37c08-d7d6-4f2c-9820-d71c21a96b98.jpeg'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'developerZain' => 'zainpk121@icloud.com' }
   s.source           = { :git => 'https://github.com/developerZain/SwiftPulseAnimation.git', :tag => s.version.to_s }
