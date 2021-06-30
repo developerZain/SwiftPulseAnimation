@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'SwiftPulseAnimation'
 ```
 
+## Usage
+
+let pulse = Pulsing(numberOfPulses: 1, radius: 110, position: yourview.center, duration: 0.9, pulseColor: .blue)
+self.view.layer.insertSublayer(pulse, below: yourview.layer)
+        
 ## Author
 
 developerZain, zainpk121@icloud.com
