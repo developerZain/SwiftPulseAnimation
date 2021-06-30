@@ -11,7 +11,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Demo
 ![](https://github.com/developerZain/SwiftPulseAnimation/blob/master/Example/SwiftPulseAnimation/Images.xcassets/gifIcon.dataset/Image.gif)
-![](https://github.com/developerZain/SwiftPulseAnimation/blob/master/Example/SwiftPulseAnimation/Images.xcassets/icon.imageset/icon.jpeg)
 
 ## Requirements
 IOS 12.1+
