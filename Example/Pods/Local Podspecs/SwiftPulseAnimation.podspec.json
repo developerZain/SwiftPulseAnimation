@@ -1,0 +1,22 @@
+{
+  "name": "SwiftPulseAnimation",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftPulseAnimation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/developerZain/SwiftPulseAnimation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "developerZain": "zainpk121@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/developerZain/SwiftPulseAnimation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SwiftPulseAnimation/Classes/**/*"
+}

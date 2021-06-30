@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08415492D63A9426C19C5F5340998F52 /* Pods-SwiftPulseAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 792D42DB0DA115928E08A5906CDC3C15 /* Pods-SwiftPulseAnimation_Tests-dummy.m */; };
+		102B91CC9D0FAC4EF85B5FE8FC2BFDCA /* Pods-SwiftPulseAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D44A4C69D2AB87AA152D99E6A44C4C /* Pods-SwiftPulseAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		144374591F4DC455CBA58C2008328D05 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B44FBFE0702FD5E23FD3556ACAD80F /* ReplaceMe.swift */; };
+		1FAF56047DB569732FAB738A5A3985B6 /* Pods-SwiftPulseAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D7C9BB0FD79EF40D83818587621DE08 /* Pods-SwiftPulseAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AE947D915E429D8562DB72B3557C3F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4E3F05CEA48ECAF5DEA432F2F3E82EFE /* SwiftPulseAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F5F499B7CB80C860221109A5A27DA1 /* SwiftPulseAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66EEBE878630E96E8A4F9351B8743E03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		83E360EBF37F301140F0E09CB093904F /* Pods-SwiftPulseAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 025BE14C218A9763AA88E0366ACFFA84 /* Pods-SwiftPulseAnimation_Example-dummy.m */; };
+		85C2D13B682DAFB900F6D011D6188C5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C9051B7A9D0625C18528AAFCDDC1786B /* SwiftPulseAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A6DCF36434B1CEF60A935BAACCEAC /* SwiftPulseAnimation-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6578E645FD6868268B913D6A5270756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D53D4E6849D6821FBE1392CF8023914;
+			remoteInfo = SwiftPulseAnimation;
+		};
+		FAE89C4CA9241B47E12BBC96C52D4B5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6210D0B84CE0BCBC57008F33BE968D2B;
+			remoteInfo = "Pods-SwiftPulseAnimation_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025BE14C218A9763AA88E0366ACFFA84 /* Pods-SwiftPulseAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftPulseAnimation_Example-dummy.m"; sourceTree = "<group>"; };
+		06B44FBFE0702FD5E23FD3556ACAD80F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftPulseAnimation/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		092F6A15EDCE2276A7742571AEF8E7B3 /* SwiftPulseAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftPulseAnimation.framework; path = SwiftPulseAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFF1D3242952B676041DF88F79AF8F1 /* Pods-SwiftPulseAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPulseAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C48DA06CE9715FD3E51FB7FD5AC527D /* SwiftPulseAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftPulseAnimation.modulemap; sourceTree = "<group>"; };
+		1D7C9BB0FD79EF40D83818587621DE08 /* Pods-SwiftPulseAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftPulseAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		25D44A4C69D2AB87AA152D99E6A44C4C /* Pods-SwiftPulseAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftPulseAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
+		37D7432C596BB37B980A2D3DD2CE00C9 /* Pods-SwiftPulseAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPulseAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		40F315B543BA617BDF35130E043CB270 /* Pods-SwiftPulseAnimation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPulseAnimation_Tests-Info.plist"; sourceTree = "<group>"; };
+		458B0D754CAFF311F477D8A6C7367870 /* Pods-SwiftPulseAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPulseAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D449707A55FA176C5C2972E8099DB1B /* Pods-SwiftPulseAnimation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPulseAnimation_Example-Info.plist"; sourceTree = "<group>"; };
+		4E8622D12ACC92E73DD79AEF60A52CBE /* SwiftPulseAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPulseAnimation-prefix.pch"; sourceTree = "<group>"; };
+		4EA8FBBC08E93776A6E87E4948901F06 /* Pods-SwiftPulseAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftPulseAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53294A53BEAB2F111DF917010B8FCF6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		792D42DB0DA115928E08A5906CDC3C15 /* Pods-SwiftPulseAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftPulseAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
+		7BA570B50DFF1E8C26BFBC911EA23493 /* Pods_SwiftPulseAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftPulseAnimation_Example.framework; path = "Pods-SwiftPulseAnimation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D8A6DCF36434B1CEF60A935BAACCEAC /* SwiftPulseAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftPulseAnimation-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FF5FD883F5F3AAB00B49651E3FE826F /* Pods-SwiftPulseAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftPulseAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A29D486A14923110969EB8AA62FE1039 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A3D0DFF7261E5D18970C78488CC5225D /* Pods-SwiftPulseAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftPulseAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A750E20F70CD59C3CA96A4A3B0F2DA4B /* SwiftPulseAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPulseAnimation.debug.xcconfig; sourceTree = "<group>"; };
+		A77C7E11CD8FB0F21F9C16EE1FB84156 /* Pods-SwiftPulseAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftPulseAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		AB858B4E7D8F64FDFAA5EC3E807C99A1 /* Pods-SwiftPulseAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftPulseAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7C63E3D6BCA55536C24445E55745F5C /* Pods-SwiftPulseAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPulseAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CBCC69E4F6AD6AA58C396CC145F15991 /* Pods_SwiftPulseAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftPulseAnimation_Tests.framework; path = "Pods-SwiftPulseAnimation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD293FEF388E9FCDF234C12042A57B2 /* Pods-SwiftPulseAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftPulseAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		E302DD0B9DA5B9B9DE3C869A6DD4578F /* SwiftPulseAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftPulseAnimation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E5813501D641AFEA40B6329BD4AC0E53 /* SwiftPulseAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftPulseAnimation.release.xcconfig; sourceTree = "<group>"; };
+		EBE2DD2D48340377E0BB59A0FD109988 /* Pods-SwiftPulseAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftPulseAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F02285F56BED09B9153DF7C99FB914B1 /* SwiftPulseAnimation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftPulseAnimation-Info.plist"; sourceTree = "<group>"; };
+		F7F5F499B7CB80C860221109A5A27DA1 /* SwiftPulseAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftPulseAnimation-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E059498866B43B9EA531B68EF42387B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C2D13B682DAFB900F6D011D6188C5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E732BFD163817F2A5923514F0CE3F367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EEBE878630E96E8A4F9351B8743E03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE89570DDFED522118FD776E3C5FCA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE947D915E429D8562DB72B3557C3F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186A62D0B06BE2B6D13529FA3DBC355C /* SwiftPulseAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				06B44FBFE0702FD5E23FD3556ACAD80F /* ReplaceMe.swift */,
+				FDD9E4CAEDB0722FC452F9D4F591638F /* Pod */,
+				F9148C5BB0620453963D1345B37E0292 /* Support Files */,
+			);
+			name = SwiftPulseAnimation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		32CDD3FEF3CC38E9F45202E6F4417AF5 /* Pods-SwiftPulseAnimation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DAD293FEF388E9FCDF234C12042A57B2 /* Pods-SwiftPulseAnimation_Example.modulemap */,
+				4EA8FBBC08E93776A6E87E4948901F06 /* Pods-SwiftPulseAnimation_Example-acknowledgements.markdown */,
+				9FF5FD883F5F3AAB00B49651E3FE826F /* Pods-SwiftPulseAnimation_Example-acknowledgements.plist */,
+				025BE14C218A9763AA88E0366ACFFA84 /* Pods-SwiftPulseAnimation_Example-dummy.m */,
+				A3D0DFF7261E5D18970C78488CC5225D /* Pods-SwiftPulseAnimation_Example-frameworks.sh */,
+				4D449707A55FA176C5C2972E8099DB1B /* Pods-SwiftPulseAnimation_Example-Info.plist */,
+				25D44A4C69D2AB87AA152D99E6A44C4C /* Pods-SwiftPulseAnimation_Example-umbrella.h */,
+				37D7432C596BB37B980A2D3DD2CE00C9 /* Pods-SwiftPulseAnimation_Example.debug.xcconfig */,
+				B7C63E3D6BCA55536C24445E55745F5C /* Pods-SwiftPulseAnimation_Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftPulseAnimation_Example";
+			path = "Target Support Files/Pods-SwiftPulseAnimation_Example";
+			sourceTree = "<group>";
+		};
+		46F53787712CD2D3D99D38E0AA526012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BA570B50DFF1E8C26BFBC911EA23493 /* Pods_SwiftPulseAnimation_Example.framework */,
+				CBCC69E4F6AD6AA58C396CC145F15991 /* Pods_SwiftPulseAnimation_Tests.framework */,
+				092F6A15EDCE2276A7742571AEF8E7B3 /* SwiftPulseAnimation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62D204BD6AD01676A47E6289045917C9 /* Pods-SwiftPulseAnimation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A77C7E11CD8FB0F21F9C16EE1FB84156 /* Pods-SwiftPulseAnimation_Tests.modulemap */,
+				AB858B4E7D8F64FDFAA5EC3E807C99A1 /* Pods-SwiftPulseAnimation_Tests-acknowledgements.markdown */,
+				458B0D754CAFF311F477D8A6C7367870 /* Pods-SwiftPulseAnimation_Tests-acknowledgements.plist */,
+				792D42DB0DA115928E08A5906CDC3C15 /* Pods-SwiftPulseAnimation_Tests-dummy.m */,
+				40F315B543BA617BDF35130E043CB270 /* Pods-SwiftPulseAnimation_Tests-Info.plist */,
+				1D7C9BB0FD79EF40D83818587621DE08 /* Pods-SwiftPulseAnimation_Tests-umbrella.h */,
+				0CFF1D3242952B676041DF88F79AF8F1 /* Pods-SwiftPulseAnimation_Tests.debug.xcconfig */,
+				EBE2DD2D48340377E0BB59A0FD109988 /* Pods-SwiftPulseAnimation_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwiftPulseAnimation_Tests";
+			path = "Target Support Files/Pods-SwiftPulseAnimation_Tests";
+			sourceTree = "<group>";
+		};
+		89E3A207A516A7323E07DBE4BBD14596 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32CDD3FEF3CC38E9F45202E6F4417AF5 /* Pods-SwiftPulseAnimation_Example */,
+				62D204BD6AD01676A47E6289045917C9 /* Pods-SwiftPulseAnimation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F2588C77840A70125BE2160FD8060074 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				46F53787712CD2D3D99D38E0AA526012 /* Products */,
+				89E3A207A516A7323E07DBE4BBD14596 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2588C77840A70125BE2160FD8060074 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				186A62D0B06BE2B6D13529FA3DBC355C /* SwiftPulseAnimation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F9148C5BB0620453963D1345B37E0292 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C48DA06CE9715FD3E51FB7FD5AC527D /* SwiftPulseAnimation.modulemap */,
+				8D8A6DCF36434B1CEF60A935BAACCEAC /* SwiftPulseAnimation-dummy.m */,
+				F02285F56BED09B9153DF7C99FB914B1 /* SwiftPulseAnimation-Info.plist */,
+				4E8622D12ACC92E73DD79AEF60A52CBE /* SwiftPulseAnimation-prefix.pch */,
+				F7F5F499B7CB80C860221109A5A27DA1 /* SwiftPulseAnimation-umbrella.h */,
+				A750E20F70CD59C3CA96A4A3B0F2DA4B /* SwiftPulseAnimation.debug.xcconfig */,
+				E5813501D641AFEA40B6329BD4AC0E53 /* SwiftPulseAnimation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftPulseAnimation";
+			sourceTree = "<group>";
+		};
+		FDD9E4CAEDB0722FC452F9D4F591638F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A29D486A14923110969EB8AA62FE1039 /* LICENSE */,
+				53294A53BEAB2F111DF917010B8FCF6D /* README.md */,
+				E302DD0B9DA5B9B9DE3C869A6DD4578F /* SwiftPulseAnimation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9874A1853B9380CE0D559B5BBF8BB702 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAF56047DB569732FAB738A5A3985B6 /* Pods-SwiftPulseAnimation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8C5B7DB38DA47C0C161AA2EB49305C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3F05CEA48ECAF5DEA432F2F3E82EFE /* SwiftPulseAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B566D8DF4073BDE5ACBF8F7A5634D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102B91CC9D0FAC4EF85B5FE8FC2BFDCA /* Pods-SwiftPulseAnimation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5D53D4E6849D6821FBE1392CF8023914 /* SwiftPulseAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF95D05F5C0A7D8CC48A3312E4014EE /* Build configuration list for PBXNativeTarget "SwiftPulseAnimation" */;
+			buildPhases = (
+				CB8C5B7DB38DA47C0C161AA2EB49305C /* Headers */,
+				F4ED28D0F16F605AF070B1184C7A5AFD /* Sources */,
+				E059498866B43B9EA531B68EF42387B0 /* Frameworks */,
+				6FD2058B83AA64BD24AC7A552502141A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPulseAnimation;
+			productName = SwiftPulseAnimation;
+			productReference = 092F6A15EDCE2276A7742571AEF8E7B3 /* SwiftPulseAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6210D0B84CE0BCBC57008F33BE968D2B /* Pods-SwiftPulseAnimation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C2F84A29B54A2C82EEFACD8F7FBB5F /* Build configuration list for PBXNativeTarget "Pods-SwiftPulseAnimation_Example" */;
+			buildPhases = (
+				E7B566D8DF4073BDE5ACBF8F7A5634D7 /* Headers */,
+				B951FD66D640953945E13B927AD59E7D /* Sources */,
+				FCE89570DDFED522118FD776E3C5FCA8 /* Frameworks */,
+				78622B272E6DE826EFA528C52520F388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A891650E3F76C43F9ACC9A71B74F1A4A /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftPulseAnimation_Example";
+			productName = "Pods-SwiftPulseAnimation_Example";
+			productReference = 7BA570B50DFF1E8C26BFBC911EA23493 /* Pods_SwiftPulseAnimation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66478B240A252B62A7942ADD122855D4 /* Pods-SwiftPulseAnimation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FF705E5F5165AB33785E197E36EB8F /* Build configuration list for PBXNativeTarget "Pods-SwiftPulseAnimation_Tests" */;
+			buildPhases = (
+				9874A1853B9380CE0D559B5BBF8BB702 /* Headers */,
+				A2DC7C0B38904B5D5F28524BBB5D738B /* Sources */,
+				E732BFD163817F2A5923514F0CE3F367 /* Frameworks */,
+				0C9BC8A05AE8E9A206807F7532E5B10C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4283AB1A5044662DE2EF714113E1A04 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftPulseAnimation_Tests";
+			productName = "Pods-SwiftPulseAnimation_Tests";
+			productReference = CBCC69E4F6AD6AA58C396CC145F15991 /* Pods_SwiftPulseAnimation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 46F53787712CD2D3D99D38E0AA526012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6210D0B84CE0BCBC57008F33BE968D2B /* Pods-SwiftPulseAnimation_Example */,
+				66478B240A252B62A7942ADD122855D4 /* Pods-SwiftPulseAnimation_Tests */,
+				5D53D4E6849D6821FBE1392CF8023914 /* SwiftPulseAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C9BC8A05AE8E9A206807F7532E5B10C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD2058B83AA64BD24AC7A552502141A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78622B272E6DE826EFA528C52520F388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DC7C0B38904B5D5F28524BBB5D738B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08415492D63A9426C19C5F5340998F52 /* Pods-SwiftPulseAnimation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B951FD66D640953945E13B927AD59E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E360EBF37F301140F0E09CB093904F /* Pods-SwiftPulseAnimation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4ED28D0F16F605AF070B1184C7A5AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144374591F4DC455CBA58C2008328D05 /* ReplaceMe.swift in Sources */,
+				C9051B7A9D0625C18528AAFCDDC1786B /* SwiftPulseAnimation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A891650E3F76C43F9ACC9A71B74F1A4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftPulseAnimation;
+			target = 5D53D4E6849D6821FBE1392CF8023914 /* SwiftPulseAnimation */;
+			targetProxy = E6578E645FD6868268B913D6A5270756 /* PBXContainerItemProxy */;
+		};
+		C4283AB1A5044662DE2EF714113E1A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftPulseAnimation_Example";
+			target = 6210D0B84CE0BCBC57008F33BE968D2B /* Pods-SwiftPulseAnimation_Example */;
+			targetProxy = FAE89C4CA9241B47E12BBC96C52D4B5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B1C2C4BB0653BF6F1A8A57003212FDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A750E20F70CD59C3CA96A4A3B0F2DA4B /* SwiftPulseAnimation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftPulseAnimation/SwiftPulseAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftPulseAnimation/SwiftPulseAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftPulseAnimation/SwiftPulseAnimation.modulemap";
+				PRODUCT_MODULE_NAME = SwiftPulseAnimation;
+				PRODUCT_NAME = SwiftPulseAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8DC3FE287E8CFFF7BF27E2D2504003A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5813501D641AFEA40B6329BD4AC0E53 /* SwiftPulseAnimation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftPulseAnimation/SwiftPulseAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftPulseAnimation/SwiftPulseAnimation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftPulseAnimation/SwiftPulseAnimation.modulemap";
+				PRODUCT_MODULE_NAME = SwiftPulseAnimation;
+				PRODUCT_NAME = SwiftPulseAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C059C671C1C539EF290DD9D1545A3B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE2DD2D48340377E0BB59A0FD109988 /* Pods-SwiftPulseAnimation_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftPulseAnimation_Tests/Pods-SwiftPulseAnimation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftPulseAnimation_Tests/Pods-SwiftPulseAnimation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8A88F5B55B523DBEC18298CDE25EBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C63E3D6BCA55536C24445E55745F5C /* Pods-SwiftPulseAnimation_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftPulseAnimation_Example/Pods-SwiftPulseAnimation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftPulseAnimation_Example/Pods-SwiftPulseAnimation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EBDD6860E883AF8174A19FDC874B6D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFF1D3242952B676041DF88F79AF8F1 /* Pods-SwiftPulseAnimation_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftPulseAnimation_Tests/Pods-SwiftPulseAnimation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftPulseAnimation_Tests/Pods-SwiftPulseAnimation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC5EAFC5346555B5C81E5D58105CAA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D7432C596BB37B980A2D3DD2CE00C9 /* Pods-SwiftPulseAnimation_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftPulseAnimation_Example/Pods-SwiftPulseAnimation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftPulseAnimation_Example/Pods-SwiftPulseAnimation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C2F84A29B54A2C82EEFACD8F7FBB5F /* Build configuration list for PBXNativeTarget "Pods-SwiftPulseAnimation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5EAFC5346555B5C81E5D58105CAA04 /* Debug */,
+				C8A88F5B55B523DBEC18298CDE25EBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF95D05F5C0A7D8CC48A3312E4014EE /* Build configuration list for PBXNativeTarget "SwiftPulseAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C2C4BB0653BF6F1A8A57003212FDF8 /* Debug */,
+				B8DC3FE287E8CFFF7BF27E2D2504003A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9FF705E5F5165AB33785E197E36EB8F /* Build configuration list for PBXNativeTarget "Pods-SwiftPulseAnimation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBDD6860E883AF8174A19FDC874B6D1F /* Debug */,
+				C059C671C1C539EF290DD9D1545A3B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

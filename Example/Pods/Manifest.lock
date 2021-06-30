@@ -1,0 +1,16 @@
+PODS:
+  - SwiftPulseAnimation (0.1.0)
+
+DEPENDENCIES:
+  - SwiftPulseAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftPulseAnimation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftPulseAnimation: 517b331f9f7d08c77391c659415c1a5bac8f60b9
+
+PODFILE CHECKSUM: 8accdd34762db20c317e4e9ad069017a6a8d69bf
+
+COCOAPODS: 1.10.1

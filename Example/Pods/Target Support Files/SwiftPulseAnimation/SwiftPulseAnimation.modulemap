@@ -1,0 +1,6 @@
+framework module SwiftPulseAnimation {
+  umbrella header "SwiftPulseAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}
